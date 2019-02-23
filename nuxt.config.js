@@ -18,16 +18,11 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
-  loading: {
-    color: '#000'
-  },
-  css: [],
+  loading: '~/components/Loading.vue',
   plugins: [
     { src: '~/plugins/client.js', ssr: false }
   ],
-  modules: [
-    '@nuxtjs/pwa'
-  ],
+  modules: [ '@nuxtjs/pwa' ],
   build: {
     plugins: [
       new webpack.LoaderOptionsPlugin({

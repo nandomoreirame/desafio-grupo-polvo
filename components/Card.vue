@@ -1,9 +1,6 @@
 <template>
-  <div :class="`Card ${ $store.state.isLoading ? 'Card--loading' : ''}`">
+  <div class="Card">
     <div class="Card__inner">
-      <transition name="loading" mode="out-in">
-        <c-preloader v-if="$store.state.isLoading" />
-      </transition>
       <header class="Card__header">
         <c-logo />
         <h2>Seja bem-vindo</h2>
@@ -19,8 +16,7 @@
 export default {
   name: 'Card',
   components: {
-    CLogo: () => import('~/components/Logo'),
-    CPreloader: () => import('~/components/Preloader')
+    CLogo: () => import('~/components/Logo')
   }
 }
 </script>
@@ -40,16 +36,4 @@ export default {
     h2
       font-size 12px
       color #6c41d7
-
-.loading
-  &-enter-active,
-  &-leave-active,
-  &-leave-to
-    transition opacity .25s ease-in-out
-    opacity: 1
-
-  &-enter,
-  &-leave-to,
-  &-leave-active
-    opacity 0
 </style>
