@@ -1,6 +1,8 @@
 {
   "name": "desafio-grupo-polvo",
+  "title": "Desafio Grupo Polvo",
   "version": "1.0.0",
+  "homepage": "https://desafio-grupo-polvo.netlify.com",
   "description": "Desafio Desenvolvedor Front-End - Grupo Polvo",
   "author": "Fernando Moreira",
   "private": true,

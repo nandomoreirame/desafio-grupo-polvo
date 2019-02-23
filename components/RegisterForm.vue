@@ -74,9 +74,6 @@
       >
         A senha não é forte o suficiente.
       </label>
-    </div>
-
-    <div class="RegisterForm__control">
       <ul>
         <li>
           <svg width="5" height="5" viewBox="0 0 5 5" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -288,14 +285,14 @@ export default {
     margin-bottom 15px
   &__label
     line-height 1.0625rem /* 17/16 */
-    font-size .625rem /* 10/16 */
+    font-size .75rem /* 12/16 */
     margin-bottom .3125rem /* 5/16 */
     display block
     cursor pointer
   &__message
     display block
     cursor pointer
-    font-size .625rem /* 10/16 */
+    font-size .75rem /* 12/16 */
     color $low-color
     margin-top 4px
   &__input
@@ -306,9 +303,11 @@ export default {
     border 1px solid #bfbfbf
     box-shadow inset 1px 1px 2px rgba(#000, .15)
     font-family $font-family-base
-    font-size .625rem /* 10/16 */
-    line-height 25px
+    line-height 35px
+    font-size .75rem /* 12/16 */
     padding 0 .75rem /* 12/16 */
+    +above(768px)
+      line-height 25px
     &--error
       color $low-color
     &--error,

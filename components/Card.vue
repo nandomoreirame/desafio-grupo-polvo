@@ -24,12 +24,15 @@ export default {
 <style lang="stylus" coped>
 .Card
   max-width 26.25rem /* 420/16 */
-  margin 1.875rem /* 30/16 */ auto
+  +above(768px)
+    margin 1.875rem /* 30/16 */ auto
   &__inner
     box-shadow 0 0 5px rgba(#000, .1)
     background #fff
-    padding 3.125rem /* 50/16 */
+    padding 3.125rem /* 50/16 */ 1.875rem /* 30/16 */
     position relative
+    +above(768px)
+      padding 3.125rem /* 50/16 */
   &__header
     text-align center
     margin-bottom 1.875rem /* 30/16 */

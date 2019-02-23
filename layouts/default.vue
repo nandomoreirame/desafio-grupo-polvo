@@ -1,7 +1,12 @@
 <template>
-  <div class="Challenge">
-    <nuxt />
-  </div>
+  <main class="Challenge">
+    <div>
+      <nuxt />
+      <footer class="footer">
+        <small>by <a href="/humans.txt" target="_blank">@oseunando</a></small>
+      </footer>
+    </div>
+  </main>
 </template>
 
 <style lang="stylus">
@@ -84,10 +89,24 @@ th
 
 .Challenge
   margin 0 auto
-  min-height 100vh
-  display flex
-  justify-content center
-  align-items center
+  padding .9375rem /* 15/16 */
+  +above(768px)
+    display flex
+    min-height 100vh
+    justify-content center
+    align-items center
   > div
     width 100%
+
+.footer
+  position fixed
+  bottom 0
+  width 100%
+  text-align center
+  opacity 0.65
+  padding .9375rem /* 15/16 */
+  small
+    font-size .625rem /* 10/16 */
+    &, a
+      color lighten(#000, 25%)
 </style>
