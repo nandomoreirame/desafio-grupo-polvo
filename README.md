@@ -2,12 +2,15 @@
 
 > Desafio Desenvolvedor Front-End - Grupo Polvo
 
- - [ ] Desenvolva o formulário de cadastro ao lado, de maneira responsiva
- - [ ] Utilize qualquer ferramenta ou framework que tiver domínio
- - [ ] A validação de senha deve seguir as regras apresentadas na área “Componentes”
- - [ ] Crie um repositório público no bitbucket
- - [ ] Insira no arquivo README.md seu nome e e-mail
- - [ ] Envie o link do repositório criado com seu currículo para rh@polvo.com.br
+- **Nome:** Fernando Moreira Costa
+- **Email:** nandomoreira.me@gmail.com
+
+ - [x] Desenvolva o formulário de cadastro ao lado, de maneira responsiva
+ - [x] Utilize qualquer ferramenta ou framework que tiver domínio
+ - [x] A validação de senha deve seguir as regras apresentadas na área “Componentes”
+ - [x] Crie um repositório público no ~bitbucket~ Github
+ - [x] Insira no arquivo README.md seu nome e e-mail
+ - [x] Envie o link do repositório criado com seu currículo para rh@polvo.com.br
 
 ## Netlify Build Status
 
